@@ -1,3 +1,4 @@
+import { boxList } from './eventsAPI.js';
 export const API_URL4 = "https://echlarson.github.io/jsonStorage/popCulture.json";
 
 // Grab the HTML elements

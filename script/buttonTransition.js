@@ -2,7 +2,7 @@
 import { generateUniqueYear } from './time.js'; 
 import { updateYear } from './time.js'; 
 import { yearDisplay } from './time.js'; 
-import { initParallax, handleMouseMove, handleResize } from './parallax.js'; 
+import { initParallax} from './parallax.js'; 
 
 let openDoor = new Image();
 

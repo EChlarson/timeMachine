@@ -32,13 +32,14 @@ body {
 /* Hero */
 .hero {
    position: relative;
-   z-index: 10000;
+   z-index: 10001;
 }
 
 .logo {
    position: absolute;
    width: 18rem;
    margin: 1rem;
+   z-index: 10002;
 }
 
 .hero p {
@@ -74,12 +75,18 @@ button,
 .apiInfo {
    margin-left:1rem;
    overflow: hidden;
-   margin-top: -6rem;
+   margin-top: -1rem;
+}
+
+.apiInfo button {
+   pointer-events: auto;
+   z-index: 10003;
 }
 
 .nav {
    display: flex;
    justify-content: space-between;
+   pointer-events: none;
 }
 
 .nav h1 {

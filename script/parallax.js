@@ -62,7 +62,7 @@ export var updateEachParallaxItem = function() {
   });  
 }
  
-var handleMouseMove = function(event){
+export var handleMouseMove = function(event){
   mouse.x = event.clientX;
   updateInputs();
   updateOutputs();

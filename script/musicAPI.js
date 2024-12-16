@@ -1,3 +1,4 @@
+import { boxList } from './eventsAPI.js';
 export const API_URL3 = "https://echlarson.github.io/jsonStorage/musicChart.json";
 
 // Grab the HTML elements
