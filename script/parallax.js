@@ -16,8 +16,8 @@ input.mouseX.range = input.mouseX.end - input.mouseX.start;
 //Output Setup
 export var output = {
   x: {
-    start: -20,
-    end: 20,
+    start: -10,
+    end: 10,
     current: 0,
   },
   zIndex: {

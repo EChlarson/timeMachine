@@ -23,6 +23,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+   overflow-x: hidden;
+}
+
 body {
    font-family: var(--paragraph-font);
    color: var(--primary-color);
@@ -229,7 +233,6 @@ button,
 
 /* Parallax */
 #container {
-   overflow: hidden;
    position: relative;
    width: 115%;
    height: 100vh;
@@ -244,7 +247,7 @@ button,
  
  .parallax-item img {
    max-width: 120%;
-   max-height: 100vh;
+   max-height: 100vh;   
  }
  
  .tm {
