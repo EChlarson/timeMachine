@@ -13,18 +13,14 @@
       width: 30rem;
    }
 
-   .apiInfo {
-      margin-top: -11rem;
+   #container {
+      height: 90vh;
    }
 }
 
 @media (max-width: 1366px) {
    #year-display {
       top: 9rem;
-   }
-
-   .apiInfo {
-      margin-top: -6rem;
    }
 }
 
@@ -40,10 +36,6 @@
 
    .nav {
       flex-direction: column;
-   }
-
-   .apiInfo {
-      margin-top: -10rem;
    }
 }
 
@@ -61,8 +53,9 @@
       font-size: 100px;
    }
 
-   .apiInfo {
-      margin-top: -16rem;
+   #container {
+      height: 80vh;
+      width: 120%;
    }
 }
 
@@ -76,8 +69,13 @@
     }
 
     #year-display {
-      top: 45rem;
-      left: 28%;
+      top: 54rem;
+      left: 24%;
+   }
+
+   #container {
+      height: 90vh;
+      width: 120%;
    }
 
    button {
@@ -89,17 +87,53 @@
    }
 }
 
+@media (max-width: 810px) {
+   #container {
+      height: 110vh;
+   }
+}
+
 @media (max-width: 768px) {
-   .parallax-item img {
-      max-width: 250%;
+   .hero p {
+      color: #003245;
+      top: 42rem;
    }
 
-   .apiInfo {
-      margin-top: -4rem;
+   .hero button {
+      top: 12rem;
    }
 
    #year-display {
-      top: 51rem;
+      top: 58rem;
+      left: 6%;
+   }
+
+   #container {
+      height: 110vh;
+      width: 100%;
+   }
+
+   .logo {
+      width: 12rem;
+   }
+
+   .hero button {
+      top: 8rem;
+   }
+}
+
+@media (max-width: 610px) {
+   .hero p {
+      top: 38rem;
+   }
+
+   #year-display {
+      top: 54rem;
+   }
+
+   #container {
+      height: 100vh;
+      width: 115%;
    }
 }
 
@@ -138,6 +172,11 @@
       font-size: 60px;
    }
 
+   #container {
+      height: 100vh;
+      width: 115%;
+   }
+
    .segment-display,
    .segment-overlay {
       width: 3rem;
@@ -151,31 +190,19 @@
 
 @media (max-width: 375px) {
    .hero p {
-      top: 36rem;
-      height: 6rem;
+      top: 26rem;
    }
 
    .hero button {
       left: 0.25rem;
    }
 
-   .apiInfo {
-      margin-top: 0;
-   }
-
-   .parallax-item img {
-      max-width: 270%;
-   }
-
-   .tm {
-      margin-top: -8%;
-    }
-
     #year-display {
-      top: 28rem;
+      top: 40rem;
    }
 
    #container {
-      height: 120vh;
+      height: 118vh;
+      width: 100%;
    }
 }
